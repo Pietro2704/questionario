@@ -41,3 +41,31 @@ git add .
 ```bash
 git commit -m 'o começo'
 ```
+
+```bash
+git remote add origin https://github.com/Pietro2704/questionario.git
+```
+
+```bash
+git push -u origin main
+```
+
+## Passo 3: Criar as pastas components e data
+
+- clique com o botão direito na pasta **src** 
+
+- crie a pasta **'data'**, onde irá armazenar uma lista de perguntas
+
+- crie a pasta **components** onde irá ter nossos componentes
+
+```bash
+git add .
+```
+
+```bash
+git commit -m 'passo 3'
+```
+
+```bash
+git push origin main
+```
