@@ -100,3 +100,21 @@ git commit -m 'passo 4'
 ```bash
 git push origin main
 ```
+
+## Passo 5: Criar o componente da Pergunta
+
+Na pasta components, vamos colocar um arquivo jsx.
+
+No arquivo, vamos criar um card para nossa pergunta.
+
+```bash
+git add .
+```
+
+```bash
+git commit -m 'passo 5'
+```
+
+```bash
+git push origin main
+```
