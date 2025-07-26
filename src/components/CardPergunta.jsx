@@ -24,7 +24,7 @@ function CardPergunta({numPergunta, totalPerguntas, pergunta, onAnswer}){
                         onClick={()=>{
                             // funcao de verificar a resposta
                             onAnswer(opcao === pergunta.answer)
-                        }}>{option}</button>
+                        }}>{opcao}</button>
                     ))}
                 </div>
             </div>

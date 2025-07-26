@@ -4,7 +4,7 @@ export const perguntas = [
     {
         question: "Qual a linguagem é usada com React para estilizar componentes?",
         options:["HTML", "CSS", "Java", "Python"],
-        anwer: "CSS"
+        answer: "CSS"
     }
 
     // Pergunta 2

@@ -152,3 +152,25 @@ git commit -m 'passo 6'
 ```bash
 git push origin main
 ```
+
+## Passo 8: Importar o bootstrap no main.jsx
+
+No arquivo main.jsx, vamos importar o bootstrap que foi o framework utilizado para estilizar
+
+```bash
+git add .
+```
+
+```bash
+git commit -m 'passo 6'
+```
+
+```bash
+git push origin main
+```
+
+## Passo 9: Testar
+
+```bash
+npm run dev
+```

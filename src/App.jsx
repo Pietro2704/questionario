@@ -25,19 +25,18 @@ function App() {
 
     // Se tiver, passar para o proximo card
     const proximo = index + 1
-    if(proximo < perguntas.length){
+    if (proximo < perguntas.length) {
       setIndex(proximo)
-    }else{
+    } else {
       setAcabou(true)
     }
+  }
 
-    // Criar o Restart do Jogo
-    const restart = () => {
-      setPontuacao(0)
-      setIndex(0)
-      setAcabou(false)
-    }
-
+  // Criar o Restart do Jogo
+  const restart = () => {
+    setPontuacao(0)
+    setIndex(0)
+    setAcabou(false)
   }
 
   return (
@@ -45,17 +44,18 @@ function App() {
       <h1 className="text-center">Mini Quiz React</h1>
       {/* Se não acabou o jogo, mostrar o card da pergunta. Senão mostrar o resultado */}
 
-      {!acabou ? 
-        <CardPergunta
+
+      {!acabou ?
+        (<CardPergunta
           numPergunta={index + 1}
           totalPerguntas={perguntas.length}
-          pergunta={perguntas[index]} 
-          onAnswer={verificar} /> 
+          pergunta={perguntas[index]}
+          onAnswer={verificar} />)
         :
-        <Resultado 
-          pontuacao={pontuacao} 
-          total={perguntas.length} 
-          onRestart={restart} /> }
+        (<Resultado
+          resultado={pontuacao}
+          total={perguntas.length}
+          onRestart={restart} />)}
     </div>
   )
 }
