@@ -69,3 +69,34 @@ git commit -m 'passo 3'
 ```bash
 git push origin main
 ```
+
+## Passo 4: Criar as perguntas
+
+Na pasta data, vamos colocar um arquivo JS.
+
+No arquivo, vamos colocar uma lista de objetos. Cada objeto sendo uma pergunta.
+
+```javascript
+export const perguntas = [
+    // Pergunta 1
+    {
+        question: "Qual a linguagem é usada com React para estilizar componentes?",
+        options:["HTML", "CSS", "Java", "Python"],
+        anwer: "CSS"
+    }
+
+    // Pergunta 2
+]
+```
+
+```bash
+git add .
+```
+
+```bash
+git commit -m 'passo 4'
+```
+
+```bash
+git push origin main
+```
