@@ -118,3 +118,21 @@ git commit -m 'passo 5'
 ```bash
 git push origin main
 ```
+
+## Passo 6: Criar o componente do Resultado
+
+Na pasta components, vamos colocar um arquivo jsx.
+
+No arquivo, vamos criar um card para mostrar o resultado do jogador.
+
+```bash
+git add .
+```
+
+```bash
+git commit -m 'passo 6'
+```
+
+```bash
+git push origin main
+```
