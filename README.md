@@ -136,3 +136,19 @@ git commit -m 'passo 6'
 ```bash
 git push origin main
 ```
+
+## Passo 7: Criar o App.jsx
+
+Agora, com nosso projeto pronto, basta apenas colocar no arquivo App.jsx (Nosso Componente principal)
+
+```bash
+git add .
+```
+
+```bash
+git commit -m 'passo 6'
+```
+
+```bash
+git push origin main
+```
