@@ -37,3 +37,7 @@ git init
 ```bash
 git add .
 ```
+
+```bash
+git commit -m 'o começo'
+```
