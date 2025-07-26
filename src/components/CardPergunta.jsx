@@ -1,7 +1,7 @@
 // importar react
 import React from "react";
 
-function CardPergunta({pergunta}){
+function CardPergunta({numPergunta, totalPerguntas, pergunta, onAnswer}){
     return (
 
         // Card
@@ -9,7 +9,7 @@ function CardPergunta({pergunta}){
 
             {/* Contagem da Pergunta */}
             <div className="card-header">
-                Pergunta x de y
+                Pergunta {numPergunta} de {totalPerguntas}
             </div>
 
             {/* Título da Pergunta */}
